@@ -18,7 +18,7 @@ This GitHub action checks all Markdown files in your repository for broken links
        runs-on: ubuntu-latest
        steps:
        - uses: actions/checkout@master
-       - uses: gaurav-nelson/github-action-markdown-link-check@v1
+       - uses: pvmtriet232/github-action-markdown-link-check@v1
    ```
 
 ### Real-life usage samples
@@ -73,7 +73,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - uses: gaurav-nelson/github-action-markdown-link-check@v1
+    - uses: pvmtriet232/github-action-markdown-link-check@v1
       with:
         use-quiet-mode: 'yes'
         use-verbose-mode: 'yes'
@@ -106,7 +106,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - uses: gaurav-nelson/github-action-markdown-link-check@v1
+    - uses: pvmtriet232/github-action-markdown-link-check@v1
       with:
         use-quiet-mode: 'yes'
         use-verbose-mode: 'yes'
@@ -154,7 +154,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - uses: gaurav-nelson/github-action-markdown-link-check@v1
+    - uses: pvmtriet232/github-action-markdown-link-check@v1
       with:
         use-quiet-mode: 'yes'
         use-verbose-mode: 'yes'
@@ -172,7 +172,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - uses: gaurav-nelson/github-action-markdown-link-check@v1
+    - uses: pvmtriet232/github-action-markdown-link-check@v1
       with:
         use-quiet-mode: 'yes'
         folder-path: 'md/dir1, md/dir2'
@@ -225,7 +225,7 @@ jobs:
 
     # Checks the status of hyperlinks in .md files in verbose mode
     - name: Check links
-      uses: gaurav-nelson/github-action-markdown-link-check@v1
+      uses: pvmtriet232/github-action-markdown-link-check@v1
       with:
         use-verbose-mode: 'yes'
 ```
@@ -241,17 +241,17 @@ On running the workflow described above, the output shown below is obtained
 ## Versioning
 GitHub Action - Markdown link check follows the [GitHub recommended versioning strategy](https://github.com/actions/toolkit/blob/master/docs/action-versioning.md).
 
-1. To use a specific released version of the action ([Releases](https://github.com/gaurav-nelson/github-action-markdown-link-check/releases)):
+1. To use a specific released version of the action ([Releases](https://github.com/pvmtriet232/github-action-markdown-link-check/releases)):
    ```yml
-   - uses: gaurav-nelson/github-action-markdown-link-check@1.0.1
+   - uses: pvmtriet232/github-action-markdown-link-check@1.0.1
    ```
 1. To use a major version of the action:
    ```yml
-   - uses: gaurav-nelson/github-action-markdown-link-check@v1
+   - uses: pvmtriet232/github-action-markdown-link-check@v1
    ```
-1. You can also specify a [specific commit SHA](https://github.com/gaurav-nelson/github-action-markdown-link-check/commits/master) as an action version:
+1. You can also specify a [specific commit SHA](https://github.com/pvmtriet232/github-action-markdown-link-check/commits/master) as an action version:
    ```yml
-   - uses: gaurav-nelson/github-action-markdown-link-check@44a942b2f7ed0dc101d556f281e906fb79f1f478
+   - uses: pvmtriet232/github-action-markdown-link-check@44a942b2f7ed0dc101d556f281e906fb79f1f478
    ```
 
 <hr>
